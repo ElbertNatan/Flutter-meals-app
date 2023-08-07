@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_meals_app/categories.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 
@@ -21,8 +22,8 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        theme: theme,
-        home: // Todo ...,
+      theme: theme,
+      home: const CategoriesScreen(),
     );
   }
 }
